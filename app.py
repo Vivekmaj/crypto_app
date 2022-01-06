@@ -7,7 +7,7 @@ from binance_app import run_binance
 
 html_temp = """
 		<div style="background-color:tomato;padding:10px;border-radius:10px">
-		<h1 style="color:white;text-align:center;">Cryptocurrency Forecast & Binance Price App </h1>
+		<h1 style="color:white;text-align:center;">Stock Forecast & Binance Price App </h1>
 		</div>
 		"""
 
@@ -22,7 +22,7 @@ def main():
     if choice == 'Home':
         st.write("""
         ### App Content
-            - Forecast Section: Forecast crypto and view some basic analytics.
+            - Forecast Section: Forecast stocks through 25,000 MC simulations.
             - Binance Prices: View price data for crypto pairs from Binance API.
         """)
         st.markdown('### Disclaimer')

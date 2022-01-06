@@ -42,7 +42,7 @@ def run_fcast_app():
         last_val = data['log'][-1]
 
         ## No of Simulations
-        num_simulations = 10
+        num_simulations = 15000
         num_days = period
         simulations_df = pd.DataFrame()
 

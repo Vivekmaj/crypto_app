@@ -27,7 +27,8 @@ def main():
         """)
         st.markdown('### Disclaimer')
         st.write('The material on this app is purely for educational purposes and should not be taken as professional investment advice. Invest at your own discretion.')
-        st.write('NOTE: Due to the extreme volatile nature of certain crypto currencies and a lack of sufficient data, the MC model may not be the best approach to use.')
+	st.markdown('### Note)
+        st.write('Due to the extreme volatile nature of certain crypto currencies and a lack of sufficient data, the MC model may not be the best approach to use.')
 
     elif choice == 'Forecast Section':
         run_fcast_app()

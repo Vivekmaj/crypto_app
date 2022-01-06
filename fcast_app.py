@@ -21,7 +21,7 @@ def run_fcast_app():
 
     st.header('**Monte Carlo Simulations**')
 
-    default = 'BTC-USD'
+    default = 'AAPL'
     user_input = st.text_input("Insert Ticker Symbol", default)
 
     period = st.slider('Forecast Duration (Days):', 1, 60)
